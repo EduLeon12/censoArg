@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/j2ee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Censo</display-name>
+  <welcome-file-list>
+    <welcome-file>http://localhost:3000/</welcome-file>
+  </welcome-file-list>
+
+
+  <servlet>
+  
+  <servlet-name>CreacionPersona</servlet-name>
+  <servlet-class>CrearPersona</servlet-class>
+  
+  </servlet>
+
+  <servlet>
+  
+  <servlet-name>EliminacionPersona</servlet-name>
+  <servlet-class>EliminarPersona</servlet-class>
+  
+  </servlet>
+
+  <servlet>
+  
+  <servlet-name>EdicionPersona</servlet-name>
+  <servlet-class>EditarPersona</servlet-class>
+  
+  </servlet>
+
+  <servlet>
+  
+  <servlet-name>ConsultaPersona</servlet-name>
+  <servlet-class>ConsultarPersona</servlet-class>
+  
+  </servlet>
+
+  <servlet>
+  
+  <servlet-name>DescargaPersonas</servlet-name>
+  <servlet-class>DescargarPersonas</servlet-class>
+  
+  </servlet>
+
+  <servlet>
+  
+  <servlet-name>DescargaPersonasPobres</servlet-name>
+  <servlet-class>DescargarPersonasPobres</servlet-class>
+  
+  </servlet>
+  <servlet>
+  
+  <servlet-name>DescargaMayoresEdadDesempleados</servlet-name>
+  <servlet-class>DescargarMayoresEdadDesempleados</servlet-class>
+  
+  </servlet>
+
+  <servlet>
+  
+  <servlet-name>DescargaCantHombreMujer</servlet-name>
+  <servlet-class>DescargarCantHombreMujer</servlet-class>
+  
+  </servlet>
+
+</web-app>  
+  
+  
